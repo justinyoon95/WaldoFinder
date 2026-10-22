@@ -1,0 +1,72 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+.ssh/
+.codex/
+.agents/
+.netrc
+.pypirc
+credentials/
+secrets/
+credentials*.json
+secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python, tooling, and build caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+build/
+dist/
+.DS_Store
+
+# Generated artifacts and experiment logs
+outputs/
+artifacts/
+logs/
+runs/
+wandb/
+*.log
+
+# Local data: retain only the empty project scaffold
+data/*
+!data/images/
+data/images/*
+!data/images/.gitkeep
+!data/annotations/
+data/annotations/*
+!data/annotations/annotations.json
+datasets/
+
+# Model weights and serialized model artifacts
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
