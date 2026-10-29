@@ -16,6 +16,7 @@ dev = ["pytest>=8,<10"]
 waldo-validate = "waldofinder.cli:validate_main"
 waldo-visualize = "waldofinder.cli:visualize_main"
 waldo-inspect = "waldofinder.compute:main"
+waldo-review = "waldofinder.review_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

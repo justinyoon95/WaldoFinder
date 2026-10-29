@@ -40,6 +40,10 @@ Follow [the labeling guide](docs/labeling.md). Start with a few real scenes you
 can inspect carefully. Put the original images in `data/images/`, and add their
 human-measured boxes to `data/annotations/annotations.json`.
 
+For the imported Charlie-DB pilot, use the separate
+[manual review and panel exclusion workflow](docs/manual-review.md) to distinguish
+hidden-scene Waldo from guide figures while preserving source annotations.
+
 ```sh
 waldo-validate
 waldo-visualize --index 0 --show
